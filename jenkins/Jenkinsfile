@@ -14,11 +14,13 @@ pipeline {
             }
         }
 
-        stage('deploy') {
-            steps {
-                echo "This is deploy stage"
-                sh 'ifconfig'
-            }
-        }
+     stage('deploy')
+{
+    steps
+    {
+        echo "This is deploy stage"
+        sh 'ip a'
+    }
+}
     }
 }
