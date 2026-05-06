@@ -19,6 +19,7 @@ pipeline {
     steps
     {
         echo "This is deploy stage"
+        echo "Checking some things"
      
     }
 }
